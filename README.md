@@ -14,7 +14,8 @@ Todo esse conteúdo está disponível no arquivo `calculadora.py`, localizado ne
 
 Todas as funcionalidades foram testadas e tiveram seu funcionamento verificado com sucesso, concluindo assim esta etapa do projeto.
 
-A partir de agora, o projeto passa para a próxima fase, que contará com novas funcionalidades, como o cálculo para determinar se compensa abastecer com álcool ou gasolina e a implementação do cálculo de promoções do tipo "3 por 1".
+A partir de agora, o projeto passa para a próxima fase, que contará com novas funcionalidades, como o cálculo para determinar se compensa abastecer com etanol ou gasolina e a implementação do cálculo de promoções do tipo "3 por 1".
+
 
 # Nota de Update - 02/06/2026
 
@@ -28,7 +29,7 @@ Outra melhoria importante foi a adição de tratamento de exceções (`try/excep
 
 Além das operações matemáticas básicas já existentes (divisão, multiplicação, subtração e soma), o menu foi expandido para incluir novas funcionalidades em desenvolvimento, como:
 
-* Verificação de custo-benefício entre álcool e gasolina;
+* Verificação de custo-benefício entre etanol e gasolina;
 * Cálculo de promoções do tipo “3 por 1”;
 * Cálculo de Índice de Massa Corporal (IMC);
 * Cálculo de juros compostos.
@@ -40,6 +41,18 @@ Todas as alterações foram revisadas e testadas, mantendo o funcionamento corre
 Com isso, esta versão representa uma evolução significativa do projeto, tornando a calculadora mais organizada, escalável e preparada para novas funcionalidades.
 
 
+## Atualização da Sprint - 03/06/2026
+
+Nesta etapa do projeto, foram adicionadas novas funcionalidades à calculadora, ampliando sua utilidade para além das operações matemáticas básicas. Foi implementado o cálculo do Índice de Massa Corporal (IMC), permitindo que o usuário informe seu peso e altura para obter o resultado e sua respectiva classificação de acordo com os critérios da Organização Mundial da Saúde (OMS).
+
+Também foi desenvolvida uma funcionalidade para auxiliar na decisão entre abastecer com etanol ou gasolina. A partir dos valores informados pelo usuário, o sistema realiza a comparação dos custos e indica qual combustível apresenta a melhor relação custo-benefício.
+
+Além disso, foi implementado o cálculo de promoções do tipo "3 por 1", permitindo determinar automaticamente o valor total da compra com a promoção aplicada e informar ao usuário o valor economizado em comparação ao preço original dos produtos.
+
+Todas as novas funcionalidades foram integradas à estrutura do projeto utilizando funções específicas e um menu interativo, mantendo a organização e a facilidade de uso da aplicação. Os recursos implementados foram testados e validados com sucesso, concluindo mais uma etapa do desenvolvimento do sistema.
+
+
+
 ## PLanejamento para o projeto
 
 | ID   | História de Usuário                                        | Prioridade |
@@ -47,7 +60,7 @@ Com isso, esta versão representa uma evolução significativa do projeto, torna
 | US01 | Como usuário, quero somar dois números                     | Alta       |
 | US02 | Como usuário, quero dividir números                        | Alta       |
 | US03 | Como usuário, quero sair do sistema pelo menu              | Alta       |
-| US04 | Como motorista, quero saber se compensa álcool ou gasolina | Média      |
+| US04 | Como motorista, quero saber se compensa etanol ou gasolina | Média      |
 | US05 | Como consumidor, quero calcular promoções 3 por 1          | Média      |
 | US06 | Como usuário, quero calcular IMC                           | Baixa      |
 | US07 | Como usuário, quero calcular juros compostos               | Baixa      |
