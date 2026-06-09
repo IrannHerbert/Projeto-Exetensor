@@ -87,6 +87,25 @@ def fag():
 
 
 
+def promocao_3_por_1():
+    preco = float(input("Digite o preço do produto: "))
+    quantidade = int(input("Digite a quantidade de produtos: "))
+
+    grupos = quantidade // 3
+    restantes = quantidade % 3
+
+    total_sem_promocao = quantidade * preco
+    total_com_promocao = (grupos * preco) + (restantes * preco)
+
+    economia = total_sem_promocao - total_com_promocao
+
+    print(f"\nQuantidade de produtos: {quantidade}")
+    print(f"Valor unitário: R$ {preco:.2f}")
+    print(f"Total sem promoção: R$ {total_sem_promocao:.2f}")
+    print(f"Total a pagar: R$ {total_com_promocao:.2f}")
+    print(f"Você economizou R$ {economia:.2f}!")
+
+
 def imc():
     
     altura = float(input("Digite sua altura (m): "))
@@ -115,31 +134,11 @@ def imc():
         print("Classificação: Obesidade grau III (mórbida)")
 
 
-def promocao_3_por_1():
-    preco = float(input("Digite o preço do produto: "))
-    quantidade = int(input("Digite a quantidade de produtos: "))
-
-    grupos = quantidade // 3
-    restantes = quantidade % 3
-
-    total_sem_promocao = quantidade * preco
-    total_com_promocao = (grupos * preco) + (restantes * preco)
-
-    economia = total_sem_promocao - total_com_promocao
-
-    print(f"\nQuantidade de produtos: {quantidade}")
-    print(f"Valor unitário: R$ {preco:.2f}")
-    print(f"Total sem promoção: R$ {total_sem_promocao:.2f}")
-    print(f"Total a pagar: R$ {total_com_promocao:.2f}")
-    print(f"Você economizou R$ {economia:.2f}!")
-
-
-
 
 def mostrar_menu():
     
     print("\n  == Menu Calculadora ==  ")
-    print("\n  1. - Divisão\n  2. - Multiplicação\n  3. - Subtração\n  4. - Soma\n  5. - Compensa etanol ou gasolina\n  6. - Calcular promoções 3 por 1 \n  7. - Calcular IMC \n  8. - Calcular juros compostos\n  9. - Sair")
+    print("\n  1. - Divisão\n  2. - Multiplicação\n  3. - Subtração\n  4. - Soma\n  5. - Compensa etanol ou gasolina\n  6. - Calcular promoções 3 por 1 \n  7. - Calcular IMC \n  8. - Sair")
    
 
 
@@ -172,10 +171,8 @@ def main():
             elif operacao == 7:
                 imc()
 
-            elif operacao == 8:
-                print("Esta função está em desenvolvimento. Aguarde novidades nas próximas atualizações !")
             
-            elif operacao == 9:
+            elif operacao == 8:
                 print("Até breve !")
                 break
     
