@@ -1,6 +1,8 @@
-## Repositório destinado ao Projeto Extensor.
+## Repositório destinado ao Projeto Extensor
 
-Este repositório foi desenvolvido com o objetivo de aplicar, de forma prática, os conhecimentos acadêmicos relacionados às metodologias ágeis, com foco especial na metodologia Scrum. Por motivos pessoais, não há planejamento para futuras atualizações no código deste projeto, além daquelas já previstas no planejamento inicial.
+Este repositório foi desenvolvido com o objetivo de aplicar, de forma prática, os conhecimentos acadêmicos relacionados às metodologias ágeis, com foco especial na metodologia Scrum.
+
+O projeto foi concluído conforme o planejamento estabelecido durante seu desenvolvimento. Por motivos pessoais, não há previsão de novas funcionalidades ou atualizações futuras além das já registradas neste repositório.
 
 ## Notas de Atualizações
 
@@ -16,7 +18,6 @@ Todas as funcionalidades foram testadas e tiveram seu funcionamento verificado c
 
 A partir de agora, o projeto passa para a próxima fase, que contará com novas funcionalidades, como o cálculo para determinar se compensa abastecer com etanol ou gasolina e a implementação do cálculo de promoções do tipo "3 por 1".
 
-
 # Nota de Update - 02/06/2026
 
 Foi apresentada uma nova versão do projeto: uma calculadora em Python estruturada com foco em organização, reutilização de código e maior robustez na interação com o usuário.
@@ -31,15 +32,11 @@ Além das operações matemáticas básicas já existentes (divisão, multiplica
 
 * Verificação de custo-benefício entre etanol e gasolina;
 * Cálculo de promoções do tipo “3 por 1”;
-* Cálculo de Índice de Massa Corporal (IMC);
-* Cálculo de juros compostos.
-
-Essas funcionalidades foram adicionadas ao menu principal como parte do planejamento da próxima fase do projeto, estando atualmente em etapa de implementação.
+* Cálculo de Índice de Massa Corporal (IMC).
 
 Todas as alterações foram revisadas e testadas, mantendo o funcionamento correto das operações já existentes e consolidando uma base mais estruturada para futuras expansões do sistema.
 
 Com isso, esta versão representa uma evolução significativa do projeto, tornando a calculadora mais organizada, escalável e preparada para novas funcionalidades.
-
 
 ## Atualização da Sprint - 03/06/2026
 
@@ -51,16 +48,50 @@ Além disso, foi implementado o cálculo de promoções do tipo "3 por 1", permi
 
 Todas as novas funcionalidades foram integradas à estrutura do projeto utilizando funções específicas e um menu interativo, mantendo a organização e a facilidade de uso da aplicação. Os recursos implementados foram testados e validados com sucesso, concluindo mais uma etapa do desenvolvimento do sistema.
 
+# Sprint Retrospective e Encerramento do Projeto - 09/06/2026
 
+Foi realizada a Sprint Retrospective com o objetivo de analisar os resultados obtidos durante o desenvolvimento do projeto, identificar pontos positivos, oportunidades de melhoria e registrar os aprendizados adquiridos ao longo da aplicação da metodologia Scrum.
 
-## PLanejamento para o projeto
+### O que funcionou bem
 
-| ID   | História de Usuário                                        | Prioridade |
-| ---- | ---------------------------------------------------------- | ---------- |
-| US01 | Como usuário, quero somar dois números                     | Alta       |
-| US02 | Como usuário, quero dividir números                        | Alta       |
-| US03 | Como usuário, quero sair do sistema pelo menu              | Alta       |
-| US04 | Como motorista, quero saber se compensa etanol ou gasolina | Média      |
-| US05 | Como consumidor, quero calcular promoções 3 por 1          | Média      |
-| US06 | Como usuário, quero calcular IMC                           | Baixa      |
-| US07 | Como usuário, quero calcular juros compostos               | Baixa      |
+* Estruturação do projeto utilizando funções e modularização do código;
+* Evolução contínua das funcionalidades por meio das Sprints;
+* Organização das entregas e acompanhamento do progresso;
+* Validação e testes realizados ao final de cada etapa de desenvolvimento;
+* Aplicação prática dos conceitos de Scrum e metodologias ágeis.
+
+### Oportunidades de melhoria identificadas
+
+* Planejamento mais detalhado das funcionalidades futuras;
+* Ampliação da documentação técnica durante o desenvolvimento;
+* Maior definição prévia dos requisitos antes da implementação.
+
+### Decisões tomadas
+
+Durante a revisão final do projeto, optou-se por remover funcionalidades que não chegaram à fase de implementação definitiva, mantendo o escopo alinhado com as entregas efetivamente concluídas.
+
+### Resultado Final
+
+O projeto foi concluído com sucesso, entregando uma calculadora composta pelas seguintes funcionalidades:
+
+* Soma;
+* Subtração;
+* Multiplicação;
+* Divisão;
+* Cálculo de IMC;
+* Comparação entre etanol e gasolina;
+* Cálculo de promoções do tipo "3 por 1".
+
+Com a realização da Sprint Retrospective, considera-se encerrado o ciclo de desenvolvimento deste Projeto Extensor.
+
+## Planejamento do Projeto
+
+| ID   | História de Usuário                                        | Prioridade | Status    |
+| ---- | ---------------------------------------------------------- | ---------- | --------- |
+| US01 | Como usuário, quero somar dois números                     | Alta       | Concluído |
+| US02 | Como usuário, quero dividir números                        | Alta       | Concluído |
+| US03 | Como usuário, quero sair do sistema pelo menu              | Alta       | Concluído |
+| US04 | Como motorista, quero saber se compensa etanol ou gasolina | Média      | Concluído |
+| US05 | Como consumidor, quero calcular promoções 3 por 1          | Média      | Concluído |
+| US06 | Como usuário, quero calcular IMC                           | Baixa      | Concluído |
+
